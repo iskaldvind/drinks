@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_padding">8dp</dimen>
+    <dimen name="wide_padding">40dp</dimen>
+
+    <dimen name="text_size_big">18sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+
+    <dimen name="item_root_elevation">2dp</dimen>
+    <dimen name="item_root_border_radius">4dp</dimen>
+    <dimen name="item_base_height">120dp</dimen>
+    <dimen name="item_base_margin">2dp</dimen>
+    <dimen name="item_header_height">80dp</dimen>
+    <dimen name="item_header_picture_size">48dp</dimen>
+    <dimen name="item_footer_top_margin">4dp</dimen>
+
+    <dimen name="drinks_header_height">48dp</dimen>
+    <dimen name="drinks_header_text_size">18sp</dimen>
+
+    <dimen name="drink_image_size">240dp</dimen>
+    <dimen name="drink_image_margin_top">40dp</dimen>
+    <dimen name="drink_text_margin_high">24dp</dimen>
+    <dimen name="drink_text_margin_low">8dp</dimen>
+</resources>

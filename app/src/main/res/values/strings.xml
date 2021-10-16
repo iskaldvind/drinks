@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">drinks</string>
+    <string name="complexity">complexity: </string>
+    <string name="drinks">Popular drinks</string>
+    <string name="drink_image_description">image</string>
 </resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="item_root">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardElevation">@dimen/item_root_elevation</item>
+        <item name="elevation">@dimen/item_root_elevation</item>
+        <item name="android:layout_marginBottom">@dimen/drink_text_margin_low</item>
+        <item name="cardCornerRadius">@dimen/item_root_border_radius</item>
+    </style>
+
+    <style name="item_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_base_height</item>
+        <item name="android:layout_margin">@dimen/item_base_margin</item>
+        <item name="android:padding">@dimen/general_padding</item>
+    </style>
+
+    <style name="item_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_header_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="item_footer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/teal_700</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="drinks_header">
+        <item name="android:layout_height">@dimen/drinks_header_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/general_padding</item>
+        <item name="android:textSize">@dimen/drinks_header_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/teal_200</item>
+    </style>
+
+    <style name="drinks_recycler">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="drink_root">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="paddingStart">@dimen/wide_padding</item>
+        <item name="paddingEnd">@dimen/wide_padding</item>
+    </style>
+
+    <style name="drink_image">
+        <item name="android:layout_height">@dimen/drink_image_size</item>
+        <item name="android:layout_width">@dimen/drink_image_size</item>
+        <item name="android:layout_marginTop">@dimen/drink_image_margin_top</item>
+    </style>
+
+    <style name="drink_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/drink_text_margin_high</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <style name="drink_glass">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/drink_text_margin_low</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="drink_ingredients_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/drink_text_margin_high</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="drink_ingredients">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="drink_amounts">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/design_default_color_error</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="drink_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/drink_text_margin_high</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+</resources>

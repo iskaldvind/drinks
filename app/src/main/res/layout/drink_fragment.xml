@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/drink_root"
+    android:paddingStart="@dimen/wide_padding"
+    android:paddingEnd="@dimen/wide_padding">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/drink_image"
+        android:contentDescription="@string/drink_image_description"/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/drink_name"/>
+
+    <TextView
+        android:id="@+id/glass"
+        style="@style/drink_glass"/>
+
+    <LinearLayout
+        android:id="@+id/ingredients_container"
+        style="@style/drink_ingredients_container">
+
+        <TextView
+            android:id="@+id/ingredients"
+            style="@style/drink_ingredients"/>
+
+        <TextView
+            android:id="@+id/amounts"
+            style="@style/drink_amounts"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/drink_description"/>
+
+</LinearLayout>
