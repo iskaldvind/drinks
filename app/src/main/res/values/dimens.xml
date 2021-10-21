@@ -8,6 +8,7 @@
 
     <dimen name="item_root_elevation">2dp</dimen>
     <dimen name="item_root_border_radius">4dp</dimen>
+    <dimen name="item_root_bottom_margin">1dp</dimen>
     <dimen name="item_base_height">120dp</dimen>
     <dimen name="item_base_margin">2dp</dimen>
     <dimen name="item_header_height">80dp</dimen>
@@ -19,6 +20,7 @@
 
     <dimen name="drink_image_size">240dp</dimen>
     <dimen name="drink_image_margin_top">40dp</dimen>
+    <dimen name="drink_image_margin_half">20dp</dimen>
     <dimen name="drink_text_margin_high">24dp</dimen>
     <dimen name="drink_text_margin_low">8dp</dimen>
 </resources>
