@@ -3,11 +3,9 @@ package io.iskaldvind.drinks
 import com.github.terrakok.cicerone.Cicerone
 import com.github.terrakok.cicerone.Router
 import io.iskaldvind.drinks.data.drink.Drink
-import io.iskaldvind.drinks.data.drink.DrinkRepository
 import io.iskaldvind.drinks.data.drink.DrinkRepositoryImpl
 import io.iskaldvind.drinks.presentation.drinks.DrinksPresenter
 import io.iskaldvind.drinks.scheduler.Schedulers
-import io.reactivex.Maybe
 import io.reactivex.Observable
 import org.junit.Before
 import org.junit.Test
