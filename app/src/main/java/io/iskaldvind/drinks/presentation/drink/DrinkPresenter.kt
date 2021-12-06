@@ -14,7 +14,7 @@ class DrinkPresenter(
 
     private val disposables = CompositeDisposable()
 
-    override fun onFirstViewAttach() {
+    fun load() {
         disposables.add(
             drinkRepo
                 .getDrinkById(id = id)

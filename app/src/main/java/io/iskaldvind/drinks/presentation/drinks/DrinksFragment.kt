@@ -40,6 +40,8 @@ class DrinksFragment: AbsFragment(drinks_fragment), DrinksView, DrinksAdapter.De
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.recycler.adapter = adapter
+        presenter
+        presenter.load()
     }
 
     override fun showDrinks(drinks: List<DrinkViewModel>) {
